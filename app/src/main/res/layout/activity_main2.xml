@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl"
+    android:backgroundTint="#70FFFFFF"
+    android:backgroundTintMode="screen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="69dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="263dp"
+        android:layout_marginBottom="65dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/msg"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="259dp"
+        android:layout_marginBottom="283dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/location"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="66dp"
+        android:layout_height="63dp"
+        android:layout_above="@id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="-205dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/call"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="84dp"
+        android:layout_height="85dp"
+        android:layout_above="@id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="-200dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/sos"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="55dp"
+        android:backgroundTint="#D500F9"
+        android:text="Message"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_above="@id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="42dp"
+        android:backgroundTint="#D500F9"
+        android:text="SOS Alert"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="188dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="305dp"
+        android:backgroundTint="#D500F9"
+        android:text="Emergency call"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="166dp"
+        android:layout_height="67dp"
+        android:layout_above="@id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#D500F9"
+        android:text="Location"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_above="@id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="44dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/contacts"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="169dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="42dp"
+        android:backgroundTint="#B9D500F9"
+        android:text="Safety Rules"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="667dp"
+        android:importantForAccessibility="no"
+        app:srcCompat="@drawable/back" />
+
+</RelativeLayout>

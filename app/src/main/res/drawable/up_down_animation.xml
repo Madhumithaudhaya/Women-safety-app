@@ -1,0 +1,9 @@
+<!-- res/anim/up_down_animation.xml -->
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromYDelta="0%p"
+    android:toYDelta="10%p"
+    android:duration="1000"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse" />

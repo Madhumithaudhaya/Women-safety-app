@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl"
+    android:backgroundTint="#C51126"
+    android:backgroundTintMode="screen"
+    tools:context=".MainActivity3">
+
+    <!-- Description -->
+
+    <!-- SOS Button -->
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="646dp"
+        android:text="SOS Alert"
+        android:textColor="@color/black"
+        android:textColorHighlight="#AA00FF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-84dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="593dp"
+        android:text="Press the button below to send an SOS alert."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="143dp"
+        android:layout_height="182dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="365dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/sos" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="68dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="274dp"
+        android:layout_marginBottom="558dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/down" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="186dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="229dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#D50000"
+        android:text="Button"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="398dp"
+        android:layout_height="325dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginBottom="32dp"
+        app:srcCompat="@drawable/ani3"
+        android:importantForAccessibility="no" />
+
+</RelativeLayout>
