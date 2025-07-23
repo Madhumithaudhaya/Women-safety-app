@@ -21,4 +21,4 @@ This is a simple Android application developed to help ensure the safety of wome
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/women-safety-app.git
+   git clone https://github.com/Madhumithaudhaya/women-safety-app.git
